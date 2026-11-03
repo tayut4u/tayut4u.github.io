@@ -1,13 +1,5 @@
 # 文化祭フォトブース / GitHub Pages用パッケージ
 
-## 公開方法
-1. ZIPを展開します。
-2. index.html、frames.json、assetsフォルダ、.nojekyllを、GitHubリポジトリの同じ階層にアップロードします。ZIPそのものを置くだけでは動きません。
-3. リポジトリの Settings → Pages で Deploy from a branch を選び、アップロードしたブランチと / (root) を指定します。
-4. 公開URLを開きます。フレーム一覧から選択すると4枚レイアウトと写真窓が自動設定されます。
-
-通常の静的Webホスティングでも、同じフォルダ構成で使えます。プロジェクト配下のURLにも対応しています。
-
 ## 同梱内容
 - index.html：アプリ本体
 - frames.json：フレーム一覧と写真窓の座標
