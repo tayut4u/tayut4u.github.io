@@ -51,3 +51,7 @@ L判・倍率100%・余白なしを設定し、プリンターのフチなし設
 ## 同梱
 index.html / frames.json / assets/frames / start_mac.command / serve_local.py / update_frames.py / update_frames.command / update_frames.bat / .nojekyll
 既存の25種のフレームと、小画面での重なりを抑えるレイアウトを維持しています。
+
+## 画像が「？」になる場合
+同梱フレームが表示されない場合はindex.htmlと同じ場所にframes.jsonとassetsフォルダがあるか確認してください。start_mac.commandで起動し、http://127.0.0.1:8765/を開いてください。
+写真も表示されなくなった場合は設定JSONを保存してアプリのタブを閉じ、再度開いて写真を選び直してください。撮影写真は自動保存されません。保存時のエラーはプレビュー下に表示されます。
